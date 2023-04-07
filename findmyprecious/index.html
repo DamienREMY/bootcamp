@@ -4,38 +4,85 @@
     <head>
 
         <title>FindThePrecious.com</title>
-        
+        <link rel="stylesheet" href="styles.css">
 
     </head>
+
     <body>
-
-        <div>FindThePrecious.com <a href="">Fellows <a/> <a href="">Contact us </a></div>
-
         
-        <p>Fellows wanted dead (or alive if you want to eat them later)</p>
 
-        <table>
+        <nav>
+            <p>FindThePrecious.com </p>
+            <a href="">Fellows</a>
+            <a href="">Contact us</a>
+        </nav>
 
-            <tr>
-                <td><img src="/assets/img/wizard.png" alt="picture of wanted wizard"/><h2>The Wizard</h2><p>A weird old man wearing a white cloak, <br>bearing a grey beard and smelling tobacco <br>(might be pot though).</p></td>
-                <td><img src="/assets/img/hobbit.png" alt="picture of dead hobbit"/> <h2>Hobbit #3</h2><p>Dead small man, nothing to see there <br>(the meat was okay).</p></td>
-                <td><img src="/assets/img/dwarf.png" alt="picture of wanted dwarf"/> <h2>Yummy Dwarf</h2><p>Other kind of small man but smells funnier, <br>fiercer opponent (try to avoid his sharp axe).</p></td>
+      <article>
 
+        <section class="carousel">
+        <p>Dangerous fellowship try to destroy the ring</p>
+        <p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
+    </section>
 
-            </tr>
+    <p id="diclaimer">Fellows wanted dead (or alive if you want to eat them later)</p>
+    <section class="targets">
+            
+                <img src="./assets/img/wizard.png" alt="picture of wanted wizard"/>
+                <img src="./assets/img/hobbit.png" alt="picture of dead hobbit"/> 
+                <img src="./assets/img/dwarf.png" alt="picture of wanted dwarf"/> 
+            
+            
+                <h2>The Wizard</h2>
+                <h2>Hobbit #3</h2>
+                <h2>Yummy Dwarf</h2>
+            
+            
+                <p>A weird old man wearing a white cloak, bearing a grey beard and smelling tobacco (might be pot though).</p>
+                <p>Dead small man, nothing to see there (the meat was okay).</p>
+                <p>Other kind of small man but smells funnier, fiercer opponent (try to avoid his sharp axe).</p>
+            
+        
+        
+    </section>  
 
-
-        </table>
-   
-
+    <section class="formulaire">
     <hr>
     <h2>Contact us</h2>
 
     <form>
-        <input type="email" name="@"/></br></br>
-        <input type="text" name="Adress"/>
+        <input type="email" name="mailbox" placeholder="@"/></br></br>
+        <input type="text" name="Adress" placeholder="Adress"/></br></br>
         </form>
+    <label for="reason-message"></label>
+    <select name="reason-message" id="reason-message"> 
+        <option value="seen">I have seen one of them</option>
+        <option value="job">I want to join the dark army</option>
+        <option value="journey">I want to travel and visit the Middle-Earth</option>
 
-        <textarea name="Your message"></textarea>
+
+    </select>
+</br>
+</br>
+    <textarea name="Your message"></textarea>
+    <input id="sendbutton" type="submit" value="Send!" class="submit" />
+
+    </section>
+    </article>
+
+        <footer>
+            <div class="Misc">
+            <a href="">About us</a>
+            <a href="">Fellows</a>
+            <a href="">Join our army</a>
+            <a href="">FAQ</a>
+            <a href="">Reward conditions</a>
+            <a href="">Legal mentions</a>
+        </div>
+            <div class="Social">
+                <a href="">Sauron4Ever.com</a>
+                <a href="">Follow him also on twitter</a>
+            </div>
+
+        </footer>
     </body>
 </html>
