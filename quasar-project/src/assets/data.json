@@ -1,0 +1,55 @@
+{
+    "techno": [
+      {
+        "id": "0",
+        "label": "JavaScript",
+        "text": "JS_logo.png"
+      },
+      {
+        "id": "1",
+        "label": "TypeScript",
+        "text": "TS_logo.png"
+      },
+      {
+        "id": "2",
+        "label": "PHP",
+        "text": "PHP_logo.png"
+      },
+      {
+        "id": "3",
+        "label": "HTML",
+        "text": "HTML_logo.png"
+      },
+      {
+        "id": "4",
+        "label": "CSS",
+        "text": "CSS_logo.png"
+      },
+      {
+        "id": "5",
+        "label": "Angular",
+        "text": "Angular_logo.png"
+      },
+      {
+        "id": "6",
+        "label": "Symfony",
+        "text": "hfnvuilrhenbrefvlevluiebhv"
+      },
+      {
+        "id": "7",
+        "label": "Node.js",
+        "text": "hfnvuilrhenbrefvlevluiebhv"
+      },
+      {
+        "id": "8",
+        "label": "Bootstrap",
+        "text": "hfnvuilrhenbrefvlevluiebhv"
+      },
+      {
+        "id": "9",
+        "label": "PostgreSQL",
+        "text": "hfnvuilrhenbrefvlevluiebhv"
+      }
+    ]
+  }
+  
