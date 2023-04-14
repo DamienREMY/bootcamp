@@ -2,7 +2,7 @@
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card v-for="language in dataJson" :key="language.id" class="my-card">
       <img
-        :src="staticPath + language.text"
+        :src="staticPath + language.path"
         :alt="language.label"
         style="width: 100px; height: 100px"
       />

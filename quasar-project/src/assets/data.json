@@ -3,52 +3,52 @@
     {
       "id": "0",
       "label": "JavaScript",
-      "text": "JS_logo.png"
+      "path": "JS_logo.png"
     },
     {
       "id": "1",
       "label": "TypeScript",
-      "text": "TS_logo.png"
+      "path": "TS_logo.png"
     },
     {
       "id": "2",
       "label": "PHP",
-      "text": "PHP_logo.png"
+      "path": "PHP_logo.png"
     },
     {
       "id": "3",
       "label": "HTML",
-      "text": "HTML_logo.png"
+      "path": "HTML_logo.png"
     },
     {
       "id": "4",
       "label": "CSS",
-      "text": "CSS_logo.png"
+      "path": "CSS_logo.png"
     },
     {
       "id": "5",
       "label": "Angular",
-      "text": "Angular_logo.png"
+      "path": "Angular_logo.png"
     },
     {
       "id": "6",
       "label": "Symfony",
-      "text": "Symfony_logo.png"
+      "path": "Symfony_logo.png"
     },
     {
       "id": "7",
       "label": "Node.js",
-      "text": "NodeJS_logo.png"
+      "path": "NodeJS_logo.png"
     },
     {
       "id": "8",
       "label": "Bootstrap",
-      "text": "Bootstrap_logo.png"
+      "path": "Bootstrap_logo.png"
     },
     {
       "id": "9",
       "label": "PostgreSQL",
-      "text": "PostgreSQL_logo.png"
+      "path": "PostgreSQL_logo.png"
     }
   ]
 }
