@@ -2,7 +2,7 @@
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card v-for="language in dataJson" :key="language.id" class="my-card">
       <img
-        :src="language.text"
+        :src="staticPath + language.text"
         :alt="language.label"
         style="width: 100px; height: 100px"
       />
@@ -30,6 +30,7 @@ export default defineComponent({
   data() {
     return {
       dataJson: json.techno,
+      staticPath: "logos/",
     };
   },
 });
